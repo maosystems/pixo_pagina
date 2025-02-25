@@ -36,12 +36,14 @@ const Header = () => {
           <Link to="/faq" className="hover:text-[rgba(51,222,179,1)]">
             Preguntas frecuentes
           </Link>
-          <Button
-            variant="outline"
-            className="border-[rgba(35,164,222,1)] text-[rgba(35,164,222,1)]"
-          >
-            Iniciar sesión
-          </Button>
+          <Link to="/login">
+            <Button
+              variant="outline"
+              className="border-[rgba(35,164,222,1)] text-[rgba(35,164,222,1)]"
+            >
+              Iniciar sesión
+            </Button>
+          </Link>
         </div>
       </nav>
     </header>
